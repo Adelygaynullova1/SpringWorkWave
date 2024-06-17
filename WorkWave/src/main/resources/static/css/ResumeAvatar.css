@@ -1,0 +1,85 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #0d0b17;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+}
+
+.logo_name{
+    position: absolute;
+    left: 120px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0d0b17;
+    margin-right: 20px;
+}
+
+.menu button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.menu button:hover {
+    background-color: #024893;
+}
+
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.orange-divider {
+    display: flex;
+}
+
+.orange-divider .orange-part {
+    flex: 1;
+    background-color: orange;
+    height: 3px;
+    border-radius: 10px;
+}
+
+.orange-divider .white-divider {
+    width: 3px;
+    background-color: white;
+
+}
+.orange-divider .gray-part {
+    flex: 1;
+    background-color: orange;
+    height: 3px;
+    border-radius: 10px;
+}
+.main_form{
+    padding: 50px;
+    width: 700px;
+    background-color: white;
+    box-shadow: -10px 0px 15px -5px rgba(0,0,0,0.75);
+    margin-left: 255px;
+    height: 600px;
+}

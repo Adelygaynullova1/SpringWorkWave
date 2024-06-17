@@ -1,0 +1,68 @@
+body {
+    background-image: url("../static/img/logReg.jpg");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+.main_section_login p{
+    text-align: left;
+    margin-left: 25px;
+}
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+.main_section {
+    box-shadow: 0 25px 45px rgba(0,0,0,0.25);
+    width: 350px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.main_section input[type="text"],
+.main_section input[type="password"],
+.main_section input[type="submit"],
+.main_section a {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+
+.main_section .btn_into {
+    text-align: center;
+    width: 350px;
+}
+
+.main_section .btn_into_input {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+.main_section .btn_into_input:hover{
+    background-color: #024893;
+
+}
+.main_section2 a{
+    text-decoration: none;
+}
